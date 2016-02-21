@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B4E90521C78BABE002A1F17 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4E90511C78BABE002A1F17 /* Square.swift */; };
 		5B5267491C773A3600AFEBE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5267481C773A3600AFEBE6 /* AppDelegate.swift */; };
-		5B52674B1C773A3600AFEBE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B52674A1C773A3600AFEBE6 /* ViewController.swift */; };
 		5B52674E1C773A3600AFEBE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B52674C1C773A3600AFEBE6 /* Main.storyboard */; };
 		5B5267501C773A3600AFEBE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B52674F1C773A3600AFEBE6 /* Assets.xcassets */; };
 		5B5267531C773A3600AFEBE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5267511C773A3600AFEBE6 /* LaunchScreen.storyboard */; };
+		5B52675F1C77460400AFEBE6 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B52675E1C77460400AFEBE6 /* HomeTableViewController.swift */; };
+		5B5267611C77470D00AFEBE6 /* FirstCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5267601C77470D00AFEBE6 /* FirstCollectionViewController.swift */; };
+		5BE18A1B1C77FA3700322EDE /* FirstLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE18A1A1C77FA3700322EDE /* FirstLayout.swift */; };
+		5BE18A1D1C77FB9800322EDE /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE18A1C1C77FB9800322EDE /* Common.swift */; };
+		5BE18A2B1C786C8F00322EDE /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE18A2A1C786C8F00322EDE /* FirstCollectionViewCell.swift */; };
+		5BE18A2D1C78711A00322EDE /* FirstCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BE18A2C1C78711A00322EDE /* FirstCollectionViewCell.xib */; };
+		5BE18A301C78A08100322EDE /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BE18A2F1C78A08100322EDE /* 1.plist */; };
+		5BE18A331C78A22E00322EDE /* WaterFallFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE18A321C78A22E00322EDE /* WaterFallFlowController.swift */; };
+		5BE18A351C78A2A500322EDE /* WaterFallFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE18A341C78A2A500322EDE /* WaterFallFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B4E90511C78BABE002A1F17 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		5B5267451C773A3600AFEBE6 /* WBWaterfallFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBWaterfallFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5267481C773A3600AFEBE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B52674A1C773A3600AFEBE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B52674D1C773A3600AFEBE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B52674F1C773A3600AFEBE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B5267521C773A3600AFEBE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B5267541C773A3600AFEBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B52675E1C77460400AFEBE6 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		5B5267601C77470D00AFEBE6 /* FirstCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewController.swift; sourceTree = "<group>"; };
+		5BE18A1A1C77FA3700322EDE /* FirstLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstLayout.swift; sourceTree = "<group>"; };
+		5BE18A1C1C77FB9800322EDE /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		5BE18A2A1C786C8F00322EDE /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		5BE18A2C1C78711A00322EDE /* FirstCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstCollectionViewCell.xib; sourceTree = "<group>"; };
+		5BE18A2F1C78A08100322EDE /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		5BE18A321C78A22E00322EDE /* WaterFallFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterFallFlowController.swift; sourceTree = "<group>"; };
+		5BE18A341C78A2A500322EDE /* WaterFallFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterFallFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,39 @@
 		5B5267471C773A3600AFEBE6 /* WBWaterfallFlow */ = {
 			isa = PBXGroup;
 			children = (
+				5BE18A311C78A1E600322EDE /* second */,
+				5BE18A2E1C78744100322EDE /* first */,
+				5B52675E1C77460400AFEBE6 /* HomeTableViewController.swift */,
 				5B5267481C773A3600AFEBE6 /* AppDelegate.swift */,
-				5B52674A1C773A3600AFEBE6 /* ViewController.swift */,
 				5B52674C1C773A3600AFEBE6 /* Main.storyboard */,
 				5B52674F1C773A3600AFEBE6 /* Assets.xcassets */,
 				5B5267511C773A3600AFEBE6 /* LaunchScreen.storyboard */,
 				5B5267541C773A3600AFEBE6 /* Info.plist */,
+				5BE18A1C1C77FB9800322EDE /* Common.swift */,
 			);
 			path = WBWaterfallFlow;
+			sourceTree = "<group>";
+		};
+		5BE18A2E1C78744100322EDE /* first */ = {
+			isa = PBXGroup;
+			children = (
+				5B5267601C77470D00AFEBE6 /* FirstCollectionViewController.swift */,
+				5BE18A1A1C77FA3700322EDE /* FirstLayout.swift */,
+				5BE18A2A1C786C8F00322EDE /* FirstCollectionViewCell.swift */,
+				5BE18A2C1C78711A00322EDE /* FirstCollectionViewCell.xib */,
+			);
+			name = first;
+			sourceTree = "<group>";
+		};
+		5BE18A311C78A1E600322EDE /* second */ = {
+			isa = PBXGroup;
+			children = (
+				5BE18A2F1C78A08100322EDE /* 1.plist */,
+				5BE18A321C78A22E00322EDE /* WaterFallFlowController.swift */,
+				5BE18A341C78A2A500322EDE /* WaterFallFlowLayout.swift */,
+				5B4E90511C78BABE002A1F17 /* Square.swift */,
+			);
+			name = second;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +166,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE18A301C78A08100322EDE /* 1.plist in Resources */,
 				5B5267531C773A3600AFEBE6 /* LaunchScreen.storyboard in Resources */,
 				5B5267501C773A3600AFEBE6 /* Assets.xcassets in Resources */,
 				5B52674E1C773A3600AFEBE6 /* Main.storyboard in Resources */,
+				5BE18A2D1C78711A00322EDE /* FirstCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +181,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B52674B1C773A3600AFEBE6 /* ViewController.swift in Sources */,
+				5B5267611C77470D00AFEBE6 /* FirstCollectionViewController.swift in Sources */,
+				5B52675F1C77460400AFEBE6 /* HomeTableViewController.swift in Sources */,
+				5BE18A1B1C77FA3700322EDE /* FirstLayout.swift in Sources */,
+				5BE18A2B1C786C8F00322EDE /* FirstCollectionViewCell.swift in Sources */,
+				5BE18A351C78A2A500322EDE /* WaterFallFlowLayout.swift in Sources */,
+				5BE18A1D1C77FB9800322EDE /* Common.swift in Sources */,
+				5B4E90521C78BABE002A1F17 /* Square.swift in Sources */,
 				5B5267491C773A3600AFEBE6 /* AppDelegate.swift in Sources */,
+				5BE18A331C78A22E00322EDE /* WaterFallFlowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +339,7 @@
 				5B5267591C773A3600AFEBE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
